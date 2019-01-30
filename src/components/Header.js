@@ -8,16 +8,15 @@ const Header = () => {
             <Link to="/" className="item">
                 Streamy
             </Link>
+
             <div className="right menu">
                 <Link to="/" className="item">
                     All Streams
-                    <GoogleAuth />
                 </Link>
+                <GoogleAuth />
             </div>
         </div>
     );
 }
 
 export default Header;
-
-/// como webcn acessa a revista, ver qual api é chamada e quais dados são esperados
