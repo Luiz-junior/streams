@@ -3,18 +3,17 @@ import { Field, reduxForm } from 'redux-form';
 
 class StreamCreate extends Component {
     renderInput({ input, label, meta }) {
-        
         return (
             <div className="field">
                 <label>{label}</label>
-                <input {...input} />
+                <input {...input} autoComplete="off" />
                 <div>{meta.error}</div>
             </div>
         );
     };
 
     onSubmit(formValues) {
-
+        
     };
 
     render() {
