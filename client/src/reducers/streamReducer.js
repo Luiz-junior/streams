@@ -1,4 +1,5 @@
-import _ from 'lodash';
+import _ from 'lodash'
+
 import {
     CREATE_STREAM,
     DELETE_STREAM,

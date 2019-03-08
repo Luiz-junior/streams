@@ -6,6 +6,7 @@ import reduxThunk from 'redux-thunk';
 
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+
 import reducers from './reducers';
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
